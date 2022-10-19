@@ -21,6 +21,49 @@ puma(X) :-
     carnivoro(X).
 
 
+tigre(X) :-
+    mamifero(X),
+    cor_fulva(X),
+    manchas_negras(X),
+    carnivoro(X).
+
+girafa(X) :-
+    ungulado(X),
+    pescoco_comprido(X),
+    manchas_negras(X).
+
+zebra(X) :-
+    ungulado(X),
+    listras_negras(X).
+
+avestruz(X) :-
+    ave(X),
+    preto_branco(X),
+    pescoco_comprido(X).
+
+pinguim(X) :-
+    ave(X),
+    nada(X),
+    preto_branco(X).
+
+albatroz(X) :-
+    ave(X),
+    voa(X).
+
+morcego(X) :-
+    mamifero(X),
+    voa(X).
+
+baleia(X) :-
+    mamifero(X).
+
+
+
+
+
+
+
+
 
 
 
