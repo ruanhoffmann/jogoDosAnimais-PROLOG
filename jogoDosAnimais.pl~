@@ -1,0 +1,26 @@
+mamifero(X) :-
+    tem_pelo(X),
+    da_leite(X).
+
+ave(X) :-
+    tem_pena(X),
+    voa(X),oviparo(X).
+
+carnivoro(X) :-
+    come_carne(X),
+    dentes_garras_olhosFrente(X).
+
+ungulado(X) :-
+    mamifero(X),
+    rumina(X).
+
+puma(X) :-
+    mamifero(X),
+    manchs_negras(X),
+    cor_fulva(X),
+    carnivoro(X).
+
+
+
+
+
